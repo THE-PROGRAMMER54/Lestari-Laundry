@@ -5,14 +5,64 @@
 }
 
 .container{
-    display: flex;
     height: 100vh;
 }
 
 .content1{
-    background-image: url("/background laundry.png");
+    display: flex;
+    position: relative;
+    background-image: url("/background.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
     background-position: center;
     width: 100%;
+    height: 100%;
+}
+
+.img-teks{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: white;
+}
+
+.slogan{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: white;
+}
+
+.content2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-top: 5px solid black;
+}
+
+.content2 .h3-judul{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+    font-style: bold;
+}
+
+.content3{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-top: 5px solid black;
+    background-color: rgb(112, 112, 112);
+}
+
+.teks-hubungi{
+    text-align: center;
+    font-size: 36px;
+    font-style: bold;
+    margin-top: 10px;
 }
